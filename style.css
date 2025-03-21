@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    /* Ваши стили */
+    background: linear-gradient(90deg,
+      #D25192, /* Первый цвет */
+      #ffffff, /* Второй цвет */
+      #D25192, /* Третий цвет */
+      #ffffff /* Четвертый цвет */
+    );
+    background-size:400% 400%;
+    animation: gradient 5s ease-in-out infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 50% 50%;
+}
+
+100% {
+    background-position: 0% 50%;
+}
+}
+.swag {
+    color: red;
+    border: 10px solid white;
+    border-radius: 50px;
+    filter: drop-shadow(1px 1px 10px white);
+    filter: drop-shadow(-1px -1px 10px white);
+    
+}
+.title {
+    filter: drop-shadow(1px 1px 5px white);
+    filter: drop-shadow(-1px -1px 5px white);
+}
